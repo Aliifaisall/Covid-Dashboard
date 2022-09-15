@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#mainHeading {
+  color: white;
+  text-align: center;
+  padding: 3vh;
+  font-size: 12vh;
+  margin: 0;
+  cursor: default;
+}
+
+#headerDiv {
+  background-color: rgba(116, 22, 237, 1);
+  height: auto;
+}
+
+#footerDiv {
+  height: 10vh;
+  text-align: center;
+}
+
+// CSS shared for all other features of the app
+h2 {
+  font-size: 3.8vh;
+  font-weight: 600;
+  margin: 1.57vh;
+  cursor: default;
+}
+
+h3 {
+  font-size: 2.8vh;
+  font-weight: 500;
+  margin: 0 1.57vh 1.57vh 1.57vh;
+  cursor: default;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background-color: transparent;
+}
+
+.feature-heading {
+  font-size: 5vh;
+  text-align: center;
+  margin: 0;
+  cursor: default;
+}
+
+.submit-button {
+  width: 35%;
+  height: 6vh;
+  font-size: 2vh;
+  padding: 1.57vh;
+  background-color: rgb(255, 188, 88);
+  border-radius: 2.5vh;
+
+  &:hover {
+    border-color: rgba(116, 22, 237, 1);
+    background-color: rgba(157, 53, 255, 0.604);
+    transition: 0.5s;
+    color: ivory;
+  }
+}
+
+.highlight {
+  &-red {
+    color: rgb(218, 49, 49);
+  }
+  &-blue {
+    color: rgb(35, 107, 167);
+  }
+}
+
+.loading-div {
+  width: auto;
+  margin-top: 30%;
+}
+
+.info-icon {
+  cursor: pointer;
+  float: right;
+  font-size: 4vh;
+  fill: rgb(168, 168, 168);
+}
+
+.popup {
+  &-div,&-overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &-overlay {
+    background: rgba(50,50,50,0.8);
+  }
+
+  &-content {
+    width: auto;
+    height: auto;
+    top: 40%;
+    left: 50%;
+    max-width: 70%;
+    min-width: 30%;
+    background: #f2f2f2;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 3vh 5vh;
+    border-radius: 2vh;
+    font-size: 2.25vh;
+    color: black;
+  }
+}

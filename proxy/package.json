@@ -1,0 +1,15 @@
+{
+    "name": "team4_covid_app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsdom": "^17.0.0",
+        "superagent": "^6.1.0"
+    }
+}

@@ -1,0 +1,106 @@
+.Feature3-light {
+  text-align: center;
+  background: linear-gradient(120deg, #f2f2f2, #f2f2f2, #f2f2f2);
+  width: 90vh;
+  height: 70vh;
+  margin-top: 7vh;
+  padding: 3vh;
+  margin: 3vh auto;    
+  border-radius: 3vh;
+
+  .help-body-div-3 {
+    border: 1vh double #ffdc3e;
+    background-color: white;
+  }
+}
+
+.Feature3-dark {
+  text-align: center;
+  border-style: solid;
+  border-color: #ffffcc;
+  background: linear-gradient(120deg, #3a3d3a, #3a3d3a, #3a3d3a);
+  width: 90vh;
+  height: 70vh;
+  margin-top: 7vh;
+  padding: 3vh;
+  margin: 3vh auto;    
+  border-radius: 3vh;
+  color: #ffffb3;
+
+  .input-field-3 {
+    background-color: rgb(200, 200, 200);
+    border-color: transparent;
+  }
+
+  .help-body-div-3 {
+    border: 1vh double ivory;
+    background-color: #161716;
+  }
+}
+
+.help {
+
+  &-icon-3 {
+      cursor: pointer;
+      float: right;
+      font-size: 5vh;
+      fill: rgb(168, 168, 168);
+  }
+
+  &-body {
+
+    &-div-3 {
+      position: absolute;
+      width: 80vh;
+      padding: 2vh 3vh 4vh 3vh;
+      margin-top: 8vh;
+      // container size 90vh, this div 80vh, half of 10vh = 5vh 
+      // 5vh - 3vh padding - 1vh border = 1vh margin, to make center
+      margin-left: 1vh;
+      cursor: default;
+    }
+
+    &-text-3 {
+      text-align: left;
+      font-size: 2.25vh;
+    }
+  }
+}
+
+.input-label-3 {
+  font-size: 2.25vh;
+  float: left;
+  margin-left: 42.5%;
+  margin-bottom: 3vh;
+}
+
+.input-field-3 {
+  font-size: 2vh;
+  height: 2.25vh;
+  float: left;
+  margin-left: 12.5%;
+  width: 50%;
+  margin-bottom: 3vh;
+}
+
+#innerDiv3 {
+  margin: 20px 0 40px 0;
+}
+
+#innerLabelsDiv3 {
+  width: 50%;
+  float: left;
+  margin-bottom: 4vh;
+}
+
+#innerInputsDiv3 {
+  width: 50%;
+  float: left;
+  margin-bottom: 4vh;
+}
+
+#buttonDiv3 {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
